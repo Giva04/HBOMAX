@@ -1,0 +1,120 @@
+body{
+    display: flex;
+    flex-direction: column;
+    /* colocando imagem de fundo */
+    background-image:url(assets/imagen/imagenFundo.svg);
+    background-color: rgba(0, 0, 0, 0.696);
+    
+    
+}
+header{
+    display: flex;
+
+}
+
+    nav{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: -100px;    
+    cursor: pointer;
+        
+    }
+  
+    nav h4{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.776);
+    }
+
+  
+.open{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+    main h1{    
+    font-size: 50px;
+    color:rgba(244, 235, 235, 0.857);
+    }
+    main h2{
+    font-size: 30px;
+    margin-top:5px;
+    color:rgba(244, 235, 235, 0.857);
+    
+    }
+
+form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 10px;
+    
+    margin-top: -70px;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-left: 30%;
+}
+
+    #register{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 1px;
+        font-size: 20px;
+        color: rgba(244, 235, 235, 0.857);
+            
+    }
+    #register input{
+        width: 100%;
+        height: 27px;
+        margin-top: 10px;
+        background-color:#9f9f9f;
+        color:rgba(244, 235, 235, 0.857);
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    #entrar{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        margin-top: 30px;
+        width: 120px;
+        height: 35px;
+        margin-left: 40%;
+        background: linear-gradient(#A18CD1,#FBC2EB);
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;   
+    }
+
+#provedor{
+    
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color:rgba(244, 235, 235, 0.857);
+    
+}
+button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    background: linear-gradient(#A18CD1,#FBC2EB);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;   
+}
